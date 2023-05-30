@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        table, th, td {
+          border:1px solid black;
+        }
+        </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/index.css" type="text/css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="h">
+            <h1> Restaurant </h1>
+
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="accounting.html"> menu </a></li>
+            </ul>
+
+        </div>
+
+
+    </header>
+
+    <main>
+
+        <section>
+            <form id="Food Form">
+                <fieldset>
+                    <legend> Food Form </legend>
+                    <div>
+                        <!-- <label for="foodID"> ID </label> -->
+                        <input type="text" id="foodID" name="foodID" placeholder="Food ID" />
+                    </div>
+
+                    <div>
+                        <!-- <label for="foodName"> Name </label> -->
+                        <input type="text" id="foodName" name="foodName" placeholder="Food Name" />
+                    </div>
+
+                    <div>
+                        <!-- <label for="type"> type </label> -->
+                        <!-- <input type="text" id="type" name="type" placeholder="Food type" /> -->
+
+                        <select type="text" id="type" name="type" placeholder="Food type">
+                            <option value="">--Please choose an option--</option>
+                            <option value="Fruit and vegetables">Fruit and vegetables</option>
+                            <option value="Starchy food">Starchy food</option>
+                            <option value="Dairy">Dairy</option>
+                            <option value="Protein">Protein</option>
+                            <option value="Fat">Fat</option>
+                        </select>
+
+
+
+
+
+
+
+
+                    </div>
+
+                    <div>
+                        <!-- <label for="Price"> Price </label> -->
+                        <hidden type="text" id="Price" name="Food" placeholder="Food Price" />
+                    </div>
+
+
+
+                    <button id="Save" type="submit"> Save </button>
+
+
+                </fieldset>
+            </form>
+        </section>
+        
+        <table id="Food">
+
+            <tr>
+                <th>ID </th>
+                <th>Name </th>
+                <th>type </th>
+                <th>Price </th>
+                
+              </tr>
+        </table>
+
+
+
+
+    </main>
+
+    <footer>
+
+        <p> &copy all rights reserved for asac</p>
+
+        <a href="https://www.linkedin.com/notifications"><i class="fa-brands fa-linkedin"></i></a></i>
+
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
